@@ -1,0 +1,84 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+@import "snackbar";
+@import "snackbar-material";
+
+
+body div.nav.btn-material-teal{
+	margin-right: 30px;
+}
+
+.landing_page1{
+    width: 100%;
+}
+
+body div.row div.col-xs-12{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+body div.row {
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+button.btn.btn-default.login{
+	color: white;
+}
+
+.navbar {
+    position: relative;
+}
+.top_logo {
+	margin-top: 15px;
+	max-height:30px;
+    position: absolute;
+    margin-left: -152px;  /* 50% of your logo width */
+    
+}
+
+button.btn.btn-primary.btn-raised.btn-xlarge{
+	position: absolute;
+
+	margin-right: 0;
+	left: 50%;
+	right: 0;
+	bottom: 10%;
+}
+
+
+@media (min-width: 992px) { 
+	.btn.btn-xlarge {
+    padding: 23px 33px;
+    font-size: 27px;
+    line-height: normal;
+    -webkit-border-radius: 8px;
+       -moz-border-radius: 8px;
+            border-radius: 8px;
+    }
+
+    button.btn.btn-primary.btn-raised.btn-xlarge{
+		margin-left: -135px;
+    }
+}
+
+@media (max-width: 992px) { 
+	.btn.btn-xlarge {
+    padding: 13px 18px;
+    font-size: 16px;
+    line-height: normal;
+    -webkit-border-radius: 5px;
+       -moz-border-radius: 5px;
+            border-radius: 5px;
+    }
+
+    button.btn.btn-primary.btn-raised.btn-xlarge{
+		margin-left: -95px;
+    }
+}
+
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
